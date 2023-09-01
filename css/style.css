@@ -170,3 +170,40 @@ section.prices .plan-card ul li {
     background-color: #7936b2;
     color: #fff;
   }
+  section.faq{
+    padding: 55px 0;
+    background-color: #fff;
+    
+  }
+  
+  section.faq .faq-title h2{
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 55px;
+  }
+
+  section.faq .accordion .accordion-item{
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    color: #9a9a9a;
+    border-radius: 0;  
+  }
+  section.faq .accordion .accordion-item button{
+    font-size: 18px;
+    color:#555;
+    border-radius: 0;  
+    font-weight: bold;  
+  }
+  section.faq .accordion .accordion-item .accordion-body{
+    font-size: 15px;
+
+  }
+  section.faq .accordion .accordion-item .accordion-button:focus {
+    border: 0 !important;
+    box-shadow: 0 0 0;
+    background-color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  box-shadow: 0 0 0;
+}
