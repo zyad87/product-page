@@ -29,8 +29,8 @@
                                 ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات </p>
                         </div>
                         <div class="header-button">
-                            <a href="#" class="btn">شراء المنتج الآن</a>
-                            <a href="#" class="btn">مميزات المنتج</a>
+                            <a href="#prices" class="btn">شراء المنتج الآن</a>
+                            <a href="#features" class="btn">مميزات المنتج</a>
 
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                 <div class="features-title text-center">
                     <h2>مميزات المنتج</h2>
                 </div>
-                <div class="media-features">
+                <div class="media-features" id="features">
                     <div class="d-flex">
                         <div class="flex-shrink-0">
                         <img src="images/tablet-1.png" alt="tablet">
@@ -295,8 +295,85 @@
                 </button>
             </div>
         </section>
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>تواصل معنا</h4>
+                        <form class="needs-validation" novalidate>
+                            <div><!-- كل حقل موجود في عنصر div منفصل -->
+                                <input type="text" class="form-control" placeholder="الاسم" required name="name" id="cname">
+                                <div class="invalid-feedback">
+                                  يرجى إدخال الاسم
+                                </div>
+                              </div>
+                              <div><!-- كل حقل موجود في عنصر div منفصل -->
+                                <input type="email" class="form-control" placeholder="البريد الالكتروني" required name="email"
+                                  id="cemail">
+                                <div class="invalid-feedback">
+                                  يرجى إدخال البريد الإلكتروني
+                                </div>
+                              </div>
+                              <div><!-- كل حقل موجود في عنصر div منفصل -->
+                                <textarea class="form-control" placeholder="الرسالة" required></textarea>
+                                <div class="invalid-feedback ">
+                                  يرجى كتابة رسالة
+                                </div>
+                              </div>
+                            <button type="submit">إرسال <i class="fas fa-angle-double-left"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>المنتجات الأكثر مشاهدة</h4>
+                        <div class="blog">
+                            <a href="" class="blog-link">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                      <img src="images/blog-1.png" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                      <h5>شيفرة متعددة الأغراض</h5>
+                                      <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء</p>
+                                    </div>
+                                  </div>
+                            </a>
+                            <a href="" class="blog-link">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                      <img src="images/blog-2.png" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5>باور بنك 3000أمبير</h5>
+                                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء</p>
+                                    </div>
+                                  </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="list-inline">
+                        <a href="#"> <li class="list-inline-item"><i class="fab fa-facebook-f"></i></li></a>
+                        <a href="#"> <li class="list-inline-item"><i class="fab fa-pinterest-p"></i></li></a>
+                        <a href="#"><li class="list-inline-item"><i class="fab fa-google-plus-g"></i></li></a>
+                        <a href="#"><li class="list-inline-item"><i class="fab fa-twitter"></i></li></a>
+                      </ul>
+                </div>
+                <div class="col-sm-6">
+                    <div class="copyright">
+                        <p>  جميع الحقوق محفوظة © <span id="fullyear">
+                            
+                        </span> || تصميم و تطوير : <a  href="https://api.whatsapp.com/send/?phone=966551262599&text&type=phone_number&app_absent=0">ZYAD  قم بالضغط هنا للتواصل </a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
