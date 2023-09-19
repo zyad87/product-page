@@ -1,6 +1,7 @@
 function playvid(){
     let video = document.getElementById('video');
     let icon = document.getElementById("icon");
+    let overlay = document.getElementById("overlay");
 
 
 
@@ -8,10 +9,12 @@ function playvid(){
     video.play();
     icon.classList.remove("fa-play");
         icon.classList.add("fa-pause");
+        overlay.style="background-color:transparent;"
     }else{
     video.pause();
     icon.classList.remove("fa-pause");
         icon.classList.add("fa-play");
+        overlay.style="background-color: rgba(129, 77, 178, .702);"
     }
 }
 document.getElementById("fullyear").innerHTML= new Date().getFullYear();
