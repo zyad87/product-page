@@ -414,7 +414,10 @@ footer .copyright p {
     text-align: left
     
 }
-
+.copyright a{
+    text-decoration: none;
+    color: aliceblue;
+}
 @media (max-width:992px) {
     header .header-text {
         padding-top: 80px
@@ -462,6 +465,7 @@ footer .copyright p {
 @media (max-width:576px) {
     footer {
         text-align: center
+        
     }
 
     footer .copyright p {
